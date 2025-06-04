@@ -1,0 +1,17 @@
+textarea {
+  resize: none;
+  outline: none;
+}
+textarea:focus {
+  border-color: #000;
+}
+button {
+  transition: background-color 0.3s ease;
+}
+.hover-card {
+  transition: all 0.3s ease;
+}
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 0 15px rgba(255, 95, 109, 0.3), 0 0 15px rgba(255, 195, 113, 0.3);
+}
